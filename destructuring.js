@@ -36,7 +36,7 @@ var { color, make, model, year } = carDetails;
 
 //Code Here
 function greeting(obj) {
-var {firstName, lastName, title} = obj
+  var { firstName, lastName, title } = obj
 
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
@@ -56,8 +56,9 @@ var {firstName, lastName, title} = obj
 */
 
 //Code Here
-function totalPopulation (utah, california, texas, arizona) {
-
+function totalPopulation(obj) {
+  let { utah, california, texas, arizona } = obj;
+  return utah + california + texas + arizona;
 }
 
 
@@ -72,7 +73,10 @@ function totalPopulation (utah, california, texas, arizona) {
 */
 
 //Code Here
-
+function ingredients (items) {
+  let {carb, fat, protein} = items;
+  
+}
 
 
 ////////// PROBLEM 5 //////////
